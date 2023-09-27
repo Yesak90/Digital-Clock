@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Montserrat&family=Orbitron&family=Roboto+Mono&display=swap");
+
+body {
+  background-color: black;
+  color: #c3f2f8;
+  font-family: "Orbitron", sans-serif;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#date,
+#time {
+  font-size: 48px;
+  text-shadow: 0 0 10px #c3f2f8, 0 0 20px #c3f2f8, 0 0 30px #c3f2f8;
+}
